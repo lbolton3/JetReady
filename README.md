@@ -1,32 +1,39 @@
-# Satellite Data Analysis
+# JetReady
 
 ### Problem and Scope
 
 #### Problem Statement
 
-Flooding is a significant natural disaster that affects millions of people worldwide, leading to loss of life, property damage, and severe economic impact. Traditional flood detection methods often lack the ability to provide early warnings, limiting the response time for affected communities. With the increasing frequency of extreme weather events due to climate change, there is a pressing need for an advanced system that can detect potential flooding events early and accurately.
+Traveling can be stressful, especially when coordinating with friends or family arriving at the airport. One common issue is determining the best time to leave for the airport to pick up arriving passengers. Factors such as flight delays, traffic conditions, and waiting time at the airport can make this task challenging. The goal is to develop a web application that helps users identify the optimal time to leave for the airport, minimizing waiting time and ensuring timely pickups.
 
-#### Project Scope
+#### Scope of the Project
 
-The Early Geo-Flooding Detection System aims to leverage modern technology to provide timely alerts and valuable insights about potential flooding events. The project will involve developing a web application that integrates real-time data collection, predictive analytics, and user-friendly visualization tools to help communities and authorities take proactive measures against flooding risks.
+The scope of this project is to develop a web application that assists users in determining the best time to leave for the airport to pick up their friends or family members. The application will take into account various factors, including:
 
-#### Key Features and Objectives
+1. **Flight Information:**
 
-1. **Real-time Data Integration**: Collect data from various sources such as weather forecasts, river water levels, satellite imagery, and geographical information systems (GIS).
-2. **Predictive Analytics**: Implement machine learning algorithms to analyze collected data and predict potential flooding events with high accuracy.
-3. **User Alerts and Notifications**: Develop a notification system to alert users (e.g., residents, local authorities) about imminent flooding threats via multiple channels (e.g., SMS, email, in-app notifications).
-4. **Interactive Visualization**: Create interactive maps and dashboards to visualize flood-prone areas, predicted flood paths, and historical flood data.
-5. **User-Friendly Interface**: Ensure the web application has an intuitive and accessible interface for users with varying levels of technical expertise.
-6. **Scalability and Reliability**: Design the system to handle large volumes of data and maintain high performance under various load conditions.
+   - Real-time flight status updates (arrival time, delays, gate changes).
+   - Airline and flight number input by the user.
 
-#### Target Users
+2. **Traffic Conditions:**
 
-- **Local Communities**: Residents in flood-prone areas who need timely information to evacuate or take protective measures.
-- **Local Authorities**: Government bodies and emergency services responsible for managing flood response and mitigation.
-- **Environmental Agencies**: Organizations involved in monitoring and managing environmental hazards.
+   - Real-time traffic data to estimate travel time to the airport.
+   - Integration with traffic APIs (e.g., Google Maps, Waze).
 
-#### Expected Outcomes
+3. **User Notifications:**
 
-- Enhanced ability to predict and respond to flooding events, reducing the potential for loss of life and property.
-- Improved preparedness and response strategies for local communities and authorities.
-- A scalable and reliable platform that can be adapted to different regions and types of flooding events.
+   - Sending notifications (e.g., SMS, email, app notifications) to users about the best time to leave based on current conditions.
+
+4. **User Interface:**
+
+   - A simple and intuitive interface for users to input flight details and receive recommendations.
+   - A dashboard displaying relevant information and updates.
+
+5. **Backend Integration:**
+
+   - Backend services to handle real-time data processing.
+   - Integration with third-party APIs for flight and traffic data.
+
+6. **User Accounts and Preferences:**
+   - Allow users to create accounts to save preferences and flight information.
+   - Customizable notification settings.
