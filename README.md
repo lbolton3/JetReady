@@ -40,7 +40,7 @@ The scope of this project is to develop a web application that assists users in 
 
 
 #### Technologies:
-Python3
-OpenSky API
-Flask for Alerts
-GoogleMaps API
+* Python3
+* OpenSky API
+* Flask for Alerts
+* GoogleMaps API
