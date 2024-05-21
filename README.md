@@ -37,3 +37,10 @@ The scope of this project is to develop a web application that assists users in 
 6. **User Accounts and Preferences:**
    - Allow users to create accounts to save preferences and flight information.
    - Customizable notification settings.
+
+
+#### Technologies:
+Python3
+OpenSky API
+Flask for Alerts
+GoogleMaps API
